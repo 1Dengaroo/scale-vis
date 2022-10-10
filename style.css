@@ -1,0 +1,41 @@
+body {
+  margin: 20;
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+h2 {
+  font-weight: 100;
+  font-size: 35;
+  margin-bottom: 25;
+}
+
+p {
+  font-size: 20;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #333;
+  shape-rendering: crispEdges;
+}
+/* labels */
+.axis-label {
+  font-family: sans-serif;
+  font-size: 11px;
+}
+
+.tooltip {
+  position: fixed;
+  display: none;
+  opacity: 0.8;
+  background-color: black;
+  color: white;
+  padding: 10 12;
+  line-height: 1.6;
+}
+
+.chart {
+  margin-bottom: 60;
+}
